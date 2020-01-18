@@ -19,7 +19,6 @@ public class Three {
 ////        jedis.set("wang","10000");
         Transaction transaction=jedis.multi();
         transaction.set("456","v456");
-
         transaction.exec();
     }
 }
